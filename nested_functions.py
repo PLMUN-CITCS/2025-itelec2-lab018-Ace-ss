@@ -4,7 +4,7 @@ def sum_of_squares(numbers):
     for n in numbers:
         total += square(n)  # Call the square function and add to total
     return total
-    
+
 numbers_list = [2, 3, 4]
 result = sum_of_squares(numbers_list)
 
